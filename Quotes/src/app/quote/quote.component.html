@@ -1,0 +1,24 @@
+<div class="container">
+    <h1 class="alert-success">QUOTES</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <div *ngFor='let quote of quotes; let i=index'>
+              <p>{{quote.name}}<br>
+                  {{quote.description}}
+              </p>
+              <button type="button" class="btn btn-info">Show Details</button><br><br>
+              <div class="details">
+                <button type="button" class="btn btn-success"> Upvote</button><br><br>
+                <button type="button" class="btn btn-success"> Downvote</button><br><br>
+                <button type="button" class="btn btn-success"> Delete</button>
+                </div>
+            </div>
+            
+            <div>
+
+            </div>
+            
+        </div>
+    </div>
+</div>

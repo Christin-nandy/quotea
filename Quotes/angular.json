@@ -5,11 +5,7 @@
   "projects": {
     "Quotes": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -28,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -92,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -127,6 +123,6 @@
   },
   "defaultProject": "Quotes",
   "cli": {
-    "analytics": "64cace87-26d7-41b8-90bf-114b2603d302"
+    "analytics": "fc0e6fdd-a36f-4ce1-910d-acb29832ce1f"
   }
 }

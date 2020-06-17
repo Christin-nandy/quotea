@@ -1,4 +1,5 @@
 export class Quote {
+   static toBeTruthy: any;
 
    constructor(
     public id: number,

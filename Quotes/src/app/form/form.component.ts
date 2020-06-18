@@ -8,11 +8,12 @@ import { Quote } from '../quote';
 })
 export class FormComponent implements OnInit {
   
-  newQuote = new Quote ('', '', '', new Date()); // new quote property to be changed by the inputs
-  @Output() addQuote = new EventEmitter<Quote>(); // new event emitter object of type quote
+  newQuote = new Quote("", "", "", newDate());//format as defined by class property
 
-  submitQuote() { // function that calls in the emit method and passes in the new property
-    this.addQuote.emit(this.newQuote);
+  @Output() addQuote = new EventEmitter<Quote>();//event emitter to listen and send out new quotes on quote parent component
+
+  submitQuote() {
+    this.addQuote.emit(this.newQuote);//this triggers addition of the new quote
   }
 
  

@@ -4,7 +4,7 @@ export class Quote {
   downvote:number;
   showDescription:boolean;
    constructor(
-    public id: number,public name: string,public quote: string,public author: string,public Date: Date,
+    public id: number,public name: string,public quote: string,public author: string,public postDate: Date,
     
    )
    {

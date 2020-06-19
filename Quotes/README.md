@@ -46,3 +46,5 @@ https://github.com/Christin-nandy/quotea
 
 ### License and Copyright
 MIT License
+<br>
+@copyright Christine Otieno

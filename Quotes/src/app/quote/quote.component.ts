@@ -13,6 +13,14 @@ quotes: Quote[] = [
   new Quote(3, 'Motivation','Never destroy a  pot that gives you water because you might need it one day.','Evans Oyoo',new Date(2020,6,17))
   
 ];
+
+addNewQuote(quotes){
+  let quoteLength = this.quotes.length;
+  quotes.id = quoteLength+1;
+  quotes.completeDate = new Date(quotes.completeDate)
+  this.quotes.push(quotes)
+}
+
 toggleDetails(index){
   this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }   
